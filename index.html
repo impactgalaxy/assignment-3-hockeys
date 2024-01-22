@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Explore Hockeys</title>
-        <link rel="shortcut icon" href="./images/business.png" type="image/x-icon">
+        <link rel="shortcut icon" href="./images/2.png" type="image/x-icon">
         <!-- tailwind and daisyui CDN -->
         <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
         <script src="https://cdn.tailwindcss.com"></script>
@@ -84,7 +84,7 @@
             <section class="container mx-auto relative space-y-4">
                 <div class="carousel w-full max-h-[550px] rounded-lg">
                     <div id="slide1" class="carousel-item relative w-full">
-                      <img src="./Images/1.png" class="w-full object-cover" />
+                      <img src="./Images/1.png" class="w-full object-cover brightness-75" />
                       <div class="absolute flex justify-between items-center gap-5 transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4" class="btn btn-circle">❮</a> 
                         <a href="#slide2" class="btn btn-circle">❯</a>
@@ -98,7 +98,7 @@
                       </div>
                     </div> 
                     <div id="slide3" class="carousel-item relative w-full">
-                      <img src="./Images/slider/s-1.jpg" class="w-full object-cover" />
+                      <img src="./Images/slider/s-1.jpg" class="w-full object-cover brightness-50" />
                       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle">❮</a> 
                         <a href="#slide4" class="btn btn-circle">❯</a>
@@ -119,11 +119,84 @@
                 </div>
                   
 
+            </section>            
+        </header>
+
+        <!-- main -->
+        <main>
+            <!-- professional hockeys -->
+            <section class="container mx-auto p-2 md:p-6 lg:p-10">
+                <div class="p-2 md:p-4 lg:p-8 w-full lg:w-1/2 text-center mx-auto space-y-4">
+                    <h1 class="text-h-color font-extrabold text-2xl lg:text-4xl">Professional Hockeys Club</h1>
+                    <p>Everything is ready for you. Don't waste your time. Show our Professional scores.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="flex flex-col items-center justify-center space-y-3 p-4">
+                        <div class="radial-progress bg-red-200 text-red-400 border-4" style="--value:25;" role="progressbar">25%</div>
+                        <h1 class="font-bold text-xl text-h-color">Prayer Facility</h1>
+                        <p class="text-p-color">We provide fast class facility for everyone.</p>
+                        <button class="btn bg-red-color">Show More</button>
+                    </div>
+                    <div class="flex flex-col items-center justify-center space-y-3  p-4">
+                        <div class="radial-progress bg-blue-200 text-blue-400 border-4" style="--value:55;" role="progressbar">55%</div>
+                        <h1 class="font-bold text-xl text-h-color">Experience Coach</h1>
+                        <p class="text-p-color">Our Coaches are well formed with best experience</p>
+                        <button class="btn bg-red-color">Show More</button>
+                    </div>
+                    <div class="flex flex-col items-center justify-center space-y-3  p-4">
+                        <div class="radial-progress bg-yellow-200 text-yellow-400 border-4" style="--value:70;" role="progressbar">70%</div>
+                        <h1 class="font-bold text-xl text-h-color">Senior Player</h1>
+                        <p class="text-p-color">Play well play with most senior. Don't shamed</p>
+                        <button class="btn bg-red-color">Show More</button>
+                    </div>
+                    <div class="flex flex-col items-center justify-center space-y-3  p-4">
+                        <div class="radial-progress bg-green-200 text-green-600 border-4" style="--value:95;" role="progressbar">95%</div>
+                        <h1 class="font-bold text-xl text-h-color">Training Ground</h1>
+                        <p class="text-p-color">Almost nature level playing field. Don't miss!</p>
+                        <button class="btn bg-red-color">Show More</button>
+                    </div>                    
+                </div> 
             </section>
 
+            <!-- program section -->
+            <section class="container mx-auto p-2 md:p-6 lg:p-10 space-y-5">
+                <article class="p-2 md:p-4 lg:p-8 w-full lg:w-1/2 text-center mx-auto space-y-4">
+                    <h1 class="text-h-color font-extrabold text-2xl lg:text-4xl">Professional Hockeys Club</h1>
+                    <p>Everything is ready for you. Don't waste your time. Show our Professional scores.</p>
+                </article>
 
-            
-        </header>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    <div class="relative">
+                        <img src="./Images/2.png" alt="" class="m-auto block w-full object-cover brightness-50">
+                        <div class="absolute top-0 left-0 h-full w-full pl-10 flex flex-col items-start justify-center space-y-4">
+                            <h1 class="font-extrabold text-white text-3xl">Junior Program</h1>
+                            <p class="text-white">Available seats for junior player. Pick your seat fast</p>
+                            <button class="btn bg-red-color text-white border-none">Register Now!</button>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="./Images/3.png" alt="" class="m-auto block w-full object-cover brightness-50">
+                        <div class="absolute top-0 left-0 h-full w-full pl-10 flex flex-col items-start justify-center space-y-4">
+                            <h1 class="font-extrabold text-white text-3xl">Teenager Program</h1>
+                            <p class="text-white">Also available seats for teenager. Pick your seat fast</p>
+                            <button class="btn bg-red-color text-white border-none">Register Now!</button>
+                        </div>
+                    </div>
+                    <div class="lg:col-start-1 lg:col-end-3 relative">
+                        <img src="./Images/4.png" alt="" class="m-auto block object-cover w-full brightness-50">
+                        <div class="absolute top-0 left-0 h-full w-full pl-10 flex flex-col items-start justify-center space-y-4">
+                            <h1 class="font-extrabold text-white text-3xl">Professional Program</h1>
+                            <p class="text-white">Profession is professional. Pick your seat fast</p>
+                            <button class="btn bg-red-color text-white border-none">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </section>
+
+        </main>
         
     </body>
 </html>
